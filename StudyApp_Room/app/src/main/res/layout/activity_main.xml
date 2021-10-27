@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC31396A"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="#BC31396A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/android"
+            android:layout_width="match_parent"
+            android:backgroundTint="#BC31396A"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_android" />
+
+        <ImageButton
+            android:id="@+id/kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BC31396A"
+            app:srcCompat="@drawable/ic_kotlin" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
